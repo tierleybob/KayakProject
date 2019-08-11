@@ -8,7 +8,6 @@ PLEASE NOTE: Kayak site may display a CAPTCHA verification once search is submit
 
 Posting scenario from feature file:
 
-<<
 @kayaktest
 Feature: Testing Kayak.com site
 
@@ -28,7 +27,7 @@ Feature: Testing Kayak.com site
       | JFK    | yes                 | MIA         | no                       | 10/10/2019 | 10/15/2019 | 2             |
       | ORD    | no                  | OAK         | yes                      | 09/20/2019 | 10/01/2019 | 1             |
       | HNL    | yes                 | SFO         | no                       | 11/15/2019 | 11/17/2019 | 3             |
->>
+
 
 Assignment as given:
 
