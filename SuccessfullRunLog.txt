@@ -1,0 +1,160 @@
+Testing started at 1:40 PM ...
+C:\jdk8\bin\java -Dorg.jetbrains.run.directory=C:\Users\felix.spektor\IdeaProjects\KayakProject\src\test\resources\features -javaagent:C:\IntelliJ_IDEA_CE2017.3.7\lib\idea_rt.jar=49408:C:\IntelliJ_IDEA_CE2017.3.7\bin -Dfile.encoding=UTF-8 -classpath C:\jdk8\jre\lib\charsets.jar;C:\jdk8\jre\lib\deploy.jar;C:\jdk8\jre\lib\ext\access-bridge-64.jar;C:\jdk8\jre\lib\ext\cldrdata.jar;C:\jdk8\jre\lib\ext\dnsns.jar;C:\jdk8\jre\lib\ext\jaccess.jar;C:\jdk8\jre\lib\ext\jfxrt.jar;C:\jdk8\jre\lib\ext\localedata.jar;C:\jdk8\jre\lib\ext\nashorn.jar;C:\jdk8\jre\lib\ext\sunec.jar;C:\jdk8\jre\lib\ext\sunjce_provider.jar;C:\jdk8\jre\lib\ext\sunmscapi.jar;C:\jdk8\jre\lib\ext\sunpkcs11.jar;C:\jdk8\jre\lib\ext\zipfs.jar;C:\jdk8\jre\lib\javaws.jar;C:\jdk8\jre\lib\jce.jar;C:\jdk8\jre\lib\jfr.jar;C:\jdk8\jre\lib\jfxswt.jar;C:\jdk8\jre\lib\jsse.jar;C:\jdk8\jre\lib\management-agent.jar;C:\jdk8\jre\lib\plugin.jar;C:\jdk8\jre\lib\resources.jar;C:\jdk8\jre\lib\rt.jar;C:\Users\felix.spektor\IdeaProjects\KayakProject\target\test-classes;C:\Users\felix.spektor\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\felix.spektor\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\felix.spektor\.m2\repository\org\apache\maven\surefire\surefire-junit47\3.0.0-M3\surefire-junit47-3.0.0-M3.jar;C:\Users\felix.spektor\.m2\repository\org\apache\maven\surefire\common-junit48\3.0.0-M3\common-junit48-3.0.0-M3.jar;C:\Users\felix.spektor\.m2\repository\org\apache\maven\surefire\common-junit4\3.0.0-M3\common-junit4-3.0.0-M3.jar;C:\Users\felix.spektor\.m2\repository\org\apache\maven\surefire\common-junit3\3.0.0-M3\common-junit3-3.0.0-M3.jar;C:\Users\felix.spektor\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M3\common-java5-3.0.0-M3.jar;C:\Users\felix.spektor\.m2\repository\org\apache\maven\surefire\surefire-grouper\3.0.0-M3\surefire-grouper-3.0.0-M3.jar;C:\Users\felix.spektor\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M3\surefire-api-3.0.0-M3.jar;C:\Users\felix.spektor\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M3\surefire-logger-api-3.0.0-M3.jar;C:\Users\felix.spektor\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\felix.spektor\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\felix.spektor\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\felix.spektor\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\felix.spektor\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\felix.spektor\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\felix.spektor\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\felix.spektor\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\felix.spektor\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\felix.spektor\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\felix.spektor\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\felix.spektor\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\felix.spektor\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\felix.spektor\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\felix.spektor\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\felix.spektor\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\felix.spektor\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.52.0\selenium-htmlunit-driver-2.52.0.jar;C:\Users\felix.spektor\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.18\htmlunit-2.18.jar;C:\Users\felix.spektor\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\felix.spektor\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\felix.spektor\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\felix.spektor\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\felix.spektor\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\felix.spektor\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\felix.spektor\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar;C:\Users\felix.spektor\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar;C:\Users\felix.spektor\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\felix.spektor\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\felix.spektor\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.12.v20150709\websocket-client-9.2.12.v20150709.jar;C:\Users\felix.spektor\.m2\repository\org\eclipse\jetty\jetty-util\9.2.12.v20150709\jetty-util-9.2.12.v20150709.jar;C:\Users\felix.spektor\.m2\repository\org\eclipse\jetty\jetty-io\9.2.12.v20150709\jetty-io-9.2.12.v20150709.jar;C:\Users\felix.spektor\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.12.v20150709\websocket-common-9.2.12.v20150709.jar;C:\Users\felix.spektor\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.12.v20150709\websocket-api-9.2.12.v20150709.jar;C:\Users\felix.spektor\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\felix.spektor\.m2\repository\io\cucumber\cucumber-java\2.4.0\cucumber-java-2.4.0.jar;C:\Users\felix.spektor\.m2\repository\io\cucumber\cucumber-core\2.4.0\cucumber-core-2.4.0.jar;C:\Users\felix.spektor\.m2\repository\info\cukes\cucumber-html\0.2.6\cucumber-html-0.2.6.jar;C:\Users\felix.spektor\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\felix.spektor\.m2\repository\io\cucumber\gherkin\5.0.0\gherkin-5.0.0.jar;C:\Users\felix.spektor\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\felix.spektor\.m2\repository\io\cucumber\cucumber-java8\2.4.0\cucumber-java8-2.4.0.jar;C:\Users\felix.spektor\.m2\repository\net\jodah\typetools\0.5.0\typetools-0.5.0.jar;C:\Users\felix.spektor\.m2\repository\io\cucumber\cucumber-junit\2.4.0\cucumber-junit-2.4.0.jar;C:\Users\felix.spektor\.m2\repository\io\cucumber\cucumber-testng\2.4.0\cucumber-testng-2.4.0.jar;C:\Users\felix.spektor\.m2\repository\org\assertj\assertj-core\3.12.2\assertj-core-3.12.2.jar;C:\Users\felix.spektor\.m2\repository\com\mashape\unirest\unirest-java\1.4.9\unirest-java-1.4.9.jar;C:\Users\felix.spektor\.m2\repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar;C:\Users\felix.spektor\.m2\repository\org\apache\httpcomponents\httpcore\4.3.3\httpcore-4.3.3.jar;C:\Users\felix.spektor\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\felix.spektor\.m2\repository\commons-codec\commons-codec\1.6\commons-codec-1.6.jar;C:\Users\felix.spektor\.m2\repository\org\apache\httpcomponents\httpasyncclient\4.0.2\httpasyncclient-4.0.2.jar;C:\Users\felix.spektor\.m2\repository\org\apache\httpcomponents\httpcore-nio\4.3.2\httpcore-nio-4.3.2.jar;C:\Users\felix.spektor\.m2\repository\org\apache\httpcomponents\httpmime\4.3.6\httpmime-4.3.6.jar;C:\Users\felix.spektor\.m2\repository\org\json\json\20140107\json-20140107.jar;C:\Users\felix.spektor\.m2\repository\org\apache\logging\log4j\log4j-core\2.12.0\log4j-core-2.12.0.jar;C:\Users\felix.spektor\.m2\repository\org\apache\logging\log4j\log4j-api\2.12.0\log4j-api-2.12.0.jar;C:\Users\felix.spektor\.IdeaIC2017.3\config\plugins\cucumber-java\lib\cucumber-jvm-formatter.jar cucumber.api.cli.Main --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name "^Verify flight reservation$" --glue support --glue definitions C:/Users/felix.spektor/IdeaProjects/KayakProject/src/test/resources/features/kayaktest.feature
+INFO 13:40:08:941 support.Hooks scenarioStart:16 
+Scenario: Verify flight reservation
+====== BEGIN ====
+
+Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 17726
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Aug 11, 2019 1:40:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+INFO 13:40:11:989 definitions.KayakStepDefs iOpenPage:27 
+Opening Kayak Home page.
+INFO 13:40:13:641 definitions.KayakStepDefs iRemovePreSelectedOriginAirport:33 
+Removing pre-selected origin airport
+INFO 13:40:19:165 definitions.KayakStepDefs iSetOriginAirportAs:49 
+Setting origin airport as JFK.
+INFO 13:40:19:571 definitions.KayakStepDefs iSetOriginToIncludeNearbyAirportsAs:56 
+Setting origin Include Nearby Airports as yes.
+INFO 13:40:20:455 definitions.KayakStepDefs iSetDestinationAirportAs:64 
+Setting destination airport as MIA.
+INFO 13:40:21:853 definitions.KayakStepDefs iSetDestinationToIncludeNearbyAirportsAs:71 
+Setting destination Include Nearby Airports as no.
+INFO 13:40:22:206 definitions.KayakStepDefs iSetDepartDateAsReturnDateAs:79 
+Validating departure and return dates
+
+INFO 13:40:22:261 definitions.KayakStepDefs iSetDepartDateAsReturnDateAs:86 
+Dates are valid, setting depart date to 10/10/2019, return date to 10/15/2019.
+INFO 13:40:25:963 definitions.KayakStepDefs iClickSearch:40 
+Clicking search button
+INFO 13:40:31:440 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:92 
+Verifying Origin and Destination information in result 2.
+
+INFO 13:40:31:444 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:96 
+Verifying trip from origin: JFK to destination: MIA.
+
+INFO 13:40:31:475 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:98 Origin-Destination info from search result: 
+JFK - MIA
+
+INFO 13:40:31:478 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:119 
+Verifying trip from destination: MIA to origin: JFK.
+
+INFO 13:40:31:505 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:121 Destination-Origin info from search result: 
+MIA - JFK
+INFO 13:40:31:506 support.Hooks scenarioEnd:26 
+Scenario: Verify flight reservation
+====== END ====
+INFO 13:40:32:232 support.Hooks scenarioStart:16 
+Scenario: Verify flight reservation
+====== BEGIN ====
+
+Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 30167
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Aug 11, 2019 1:40:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+INFO 13:40:34:671 definitions.KayakStepDefs iOpenPage:27 
+Opening Kayak Home page.
+INFO 13:40:36:939 definitions.KayakStepDefs iRemovePreSelectedOriginAirport:33 
+Removing pre-selected origin airport
+INFO 13:40:42:232 definitions.KayakStepDefs iSetOriginAirportAs:49 
+Setting origin airport as ORD.
+INFO 13:40:42:605 definitions.KayakStepDefs iSetOriginToIncludeNearbyAirportsAs:56 
+Setting origin Include Nearby Airports as no.
+INFO 13:40:42:831 definitions.KayakStepDefs iSetDestinationAirportAs:64 
+Setting destination airport as OAK.
+INFO 13:40:44:248 definitions.KayakStepDefs iSetDestinationToIncludeNearbyAirportsAs:71 
+Setting destination Include Nearby Airports as yes.
+INFO 13:40:45:221 definitions.KayakStepDefs iSetDepartDateAsReturnDateAs:79 
+Validating departure and return dates
+
+INFO 13:40:45:222 definitions.KayakStepDefs iSetDepartDateAsReturnDateAs:86 
+Dates are valid, setting depart date to 09/20/2019, return date to 10/01/2019.
+INFO 13:40:48:899 definitions.KayakStepDefs iClickSearch:40 
+Clicking search button
+INFO 13:40:54:205 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:92 
+Verifying Origin and Destination information in result 1.
+
+INFO 13:40:54:205 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:96 
+Verifying trip from origin: ORD to destination: OAK.
+
+INFO 13:40:54:227 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:98 Origin-Destination info from search result: 
+ORD - SJC
+
+INFO 13:40:54:234 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:113 
+Destination airport doesn't match but Include nearby for Destination was turned on, so this is not a bug
+
+Expecting:
+ <"SJC">
+to be equal to:
+ <"OAK">
+ignoring case considerations
+INFO 13:40:54:234 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:119 
+Verifying trip from destination: OAK to origin: ORD.
+
+INFO 13:40:54:255 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:121 Destination-Origin info from search result: 
+SJC - ORD
+
+INFO 13:40:54:256 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:126 
+Destination airport doesn't match but Include nearby for Destination was turned on, so this is not a bug
+
+Expecting:
+ <"SJC">
+to be equal to:
+ <"OAK">
+ignoring case considerationsINFO 13:40:54:256 support.Hooks scenarioEnd:26 
+Scenario: Verify flight reservation
+====== END ====
+INFO 13:40:55:259 support.Hooks scenarioStart:16 
+Scenario: Verify flight reservation
+====== BEGIN ====
+
+Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 34611
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Aug 11, 2019 1:40:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+INFO 13:40:57:692 definitions.KayakStepDefs iOpenPage:27 
+Opening Kayak Home page.
+INFO 13:40:59:381 definitions.KayakStepDefs iRemovePreSelectedOriginAirport:33 
+Removing pre-selected origin airport
+INFO 13:41:04:961 definitions.KayakStepDefs iSetOriginAirportAs:49 
+Setting origin airport as HNL.
+INFO 13:41:05:334 definitions.KayakStepDefs iSetOriginToIncludeNearbyAirportsAs:56 
+Setting origin Include Nearby Airports as yes.
+INFO 13:41:06:193 definitions.KayakStepDefs iSetDestinationAirportAs:64 
+Setting destination airport as SFO.
+INFO 13:41:07:592 definitions.KayakStepDefs iSetDestinationToIncludeNearbyAirportsAs:71 
+Setting destination Include Nearby Airports as no.
+INFO 13:41:07:888 definitions.KayakStepDefs iSetDepartDateAsReturnDateAs:79 
+Validating departure and return dates
+
+INFO 13:41:07:888 definitions.KayakStepDefs iSetDepartDateAsReturnDateAs:86 
+Dates are valid, setting depart date to 11/15/2019, return date to 11/17/2019.
+INFO 13:41:11:627 definitions.KayakStepDefs iClickSearch:40 
+Clicking search button
+INFO 13:41:17:039 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:92 
+Verifying Origin and Destination information in result 3.
+
+INFO 13:41:17:039 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:96 
+Verifying trip from origin: HNL to destination: SFO.
+
+INFO 13:41:17:064 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:98 Origin-Destination info from search result: 
+HNL - SFO
+
+INFO 13:41:17:064 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:119 
+Verifying trip from destination: SFO to origin: HNL.
+
+INFO 13:41:17:090 definitions.KayakStepDefs iSelectSearchResultAndVerifyOriginAndDestinationMatchInput:121 Destination-Origin info from search result: 
+SFO - HNL
+INFO 13:41:17:090 support.Hooks scenarioEnd:26 
+Scenario: Verify flight reservation
+====== END ====
+
+3 Scenarios (3 passed)
+27 Steps (27 passed)
+1m9.681s
+
+
+Process finished with exit code 0
