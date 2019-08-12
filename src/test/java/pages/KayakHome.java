@@ -4,6 +4,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import static support.TestContext.getWait;
 
 public class KayakHome extends Page {
 
@@ -78,7 +81,7 @@ public class KayakHome extends Page {
 
     public void populateDestination(String dest) throws InterruptedException {
         click(destAprt);
-        Thread.sleep(1000);
+        getWait().until(ExpectedConditions.visibilityOf(destAprtTxtBox));
         destAprtTxtBox.sendKeys(dest);
         destAprtTxtBox.sendKeys(Keys.ENTER);
     }
@@ -105,13 +108,13 @@ public class KayakHome extends Page {
 
     public void setDates(String depDateString, String retDateString) throws InterruptedException {
         click(departDate);
-        Thread.sleep(1000);
+        getWait().until(ExpectedConditions.visibilityOf(departDateBox));
         click(departDateBox);
-        Thread.sleep(1000);
+        getWait().until(ExpectedConditions.visibilityOf(departDateBox));
         departDateBox.clear();
         departDateBox.sendKeys(depDateString);
         click(returnDateBox);
-        Thread.sleep(1000);
+        getWait().until(ExpectedConditions.visibilityOf(returnDateBox));
         returnDateBox.clear();
         returnDateBox.sendKeys(retDateString);
         returnDateBox.sendKeys(Keys.ENTER);

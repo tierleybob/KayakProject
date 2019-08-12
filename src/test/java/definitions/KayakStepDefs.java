@@ -39,6 +39,7 @@ public class KayakStepDefs implements Loggable{
     public void iClickSearch() throws InterruptedException {
         getLogger().info("\nClicking search button\n");
         new KayakHome().search();
+        // Verify if CAPTCHA is present, then sleep for 65 sec if it is
         if(getDriver().findElements(By.xpath("//script[contains(@src,'captcha')]")).size() != 0)
             Thread.sleep(65000);
     }
